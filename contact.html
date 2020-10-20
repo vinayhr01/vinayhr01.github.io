@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@1.0/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    header {
+      animation: back 1s ease-in-out;
+      transform: translateX(0%);
+    }
+
+    @keyframes back {
+
+      from {
+        transform: translateY(-100%)
+      }
+      to {
+        transform: translateY(0%)
+      }
+    }
+
+    section {
+      animation: front 1.5s ease-in-out;
+      transform: translateX(0%);
+    }
+
+    @keyframes front {
+
+      from {
+        transform: translateY(100%)
+      }
+
+      to {
+        transform: translateY(0%)
+      }
+    }
+
+    footer {
+      animation: side 2s ease-in-out;
+      transform: translateX(0%);
+    }
+
+    @keyframes side {
+
+      from {
+        transform: translateX(-200%)
+      }
+
+      to {
+        transform: translateX(0%)
+      }
+    }
+  </style>
+  <title>Contact</title>
+
+</head>
+
+<body>
+  <header class="text-gray-500 bg-gray-900 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+        <a class="mr-5 hover:text-white" href="contact.html" style="color: white; cursor: default;">Contact Me</a>
+        <a class="mr-5 hover:text-white" href="index.html">Profile</a>
+        <a class="mr-5 hover:text-white" href="blogs.html">Blogs</a>
+      </nav>
+      <a
+        class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
+        <img src="B.jpg" alt="Blog icon" style="width: 20%; border-radius: 50%; opacity: 0.6; cursor:default;">
+        <span class="ml-3 text-xl xl:block lg:hidden" style="cursor: default;">BLOGGERS.inc</span>
+      </a>
+      <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+        <input type="text" placeholder="Search blogs"
+          style="margin: 5%; padding: 1%; border-bottom: 3px solid rgba(14, 83, 163, 0.637); background: #1A202C;">
+        <a href="blogs.html"><img src="glass.jpg" alt="search icon"
+            style="width: 2.5em; margin-top: 1.1em; border-radius: 50%; margin-left: auto;"></a>
+      </div>
+    </div>
+  </header>
+  <hr>
+  <section class="text-gray-500 bg-gray-900 body-font relative">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Me For More Projects</h1>
+        <p class="text-teal-500">Your information is 100% safe.</p>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <!-- <form action="mailto:vhr1211@gmail.com" method="POST" enctype=”multipart/form-data” name=”EmailForm”> -->
+            <input
+              class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none focus:border-teal-500 text-base px-4 py-2"
+              placeholder="Name" type="text">
+          </div>
+          <div class="p-2 w-1/2">
+            <input
+              class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none focus:border-teal-500 text-base px-4 py-2"
+              placeholder="Email" type="email">
+          </div>
+          <div class="p-2 w-full">
+            <textarea
+              class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none h-48 focus:border-teal-500 text-base px-4 py-2 resize-none block"
+              placeholder="Message"></textarea>
+          </div>
+          <div class="p-2 w-full">
+            <button
+              class="flex mx-auto text-white bg-teal-500 border-0 py-2 px-8 focus:outline-none hover:bg-teal-600 rounded text-lg"
+              style="margin-bottom: 5%;">Submit</button>
+            <span class="text-teal-500" style="margin-left: 40%;">example@email.com</span>
+
+          </div>
+          <!-- </form> -->
+
+        </div>
+      </div>
+      </div>
+  </section>
+  <footer>
+    <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
+      <span class="inline-flex">
+        <a class="text-gray-500" href="https://www.facebook.com" target="_blank">
+          <img src="fb.png" alt="facebook image icon" style="width: 1.7em; opacity: 0.6; border-radius: 50%;">
+        </a>
+        <a class="ml-4 text-gray-500" href="https://www.instagram.com" target="_blank">
+          <img src="insta.png" alt="instagram image icon" style="width: 1.7em; opacity: 0.6; border-radius: 50%;">
+        </a>
+        <a class="ml-4 text-gray-500" href="https://www.github.com" target="_blank">
+          <img src="github.png" alt="github image icon" style="width: 1.7em; opacity: 0.6; border-radius: 50%;">
+        </a>
+      </span>
+    </div>
+  </footer>
+</body>
+
+</html>
