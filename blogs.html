@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@1.0/dist/tailwind.min.css" rel="stylesheet">
+  <title>Blogs</title>
+  <style>
+    header {
+      animation: back 2s ease-in-out;
+      transform: translateX(0%);
+    }
+
+    @keyframes back {
+
+      from {
+        transform: translateX(110%)
+      }
+
+      to {
+        transform: translateX(0%)
+      }
+    }
+
+    section {
+      animation: front 2s ease-in-out;
+      transform: translateX(0%);
+    }
+
+    @keyframes front {
+
+      from {
+        transform: translateY(70%)
+      }
+
+      to {
+        transform: translateY(0%)
+      }
+    }
+
+    footer {
+      animation: side 2s ease-in-out;
+      transform: translateX(0%);
+    }
+
+    @keyframes side {
+
+      from {
+        transform: translateX(200%)
+      }
+
+      to {
+        transform: translateX(0%)
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="text-gray-500 bg-gray-900 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto" style="margin: auto;">
+        <a class="mr-5 hover:text-white" style="color: white; cursor: default;">Blogs</a>
+        <a class="mr-5 hover:text-white" href="contact.html">Contact Me</a>
+        <a class="mr-5 hover:text-white" href="index.html">Profile</a>
+      </nav>
+      <a
+        class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
+        <img src="B.jpg" alt="Blog icon" style="width: 20%; border-radius: 50%; opacity: 0.6; cursor: default;">
+        <span class="ml-3 text-xl xl:block lg:hidden" style="margin: auto; cursor: default;">BLOGGERS.inc</span>
+      </a>
+    </div>
+  </header>
+  <hr>
+  <section class="text-gray-500 bg-gray-900 body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="-my-8">
+        <div class="py-8 flex flex-wrap md:flex-no-wrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="tracking-widest font-medium title-font text-white">WEB DESIGN AND DEVELOPMENT</span>
+            <span class="mt-1 text-gray-600 text-sm">19 Sep 2020</span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-white title-font mb-2">What is the difference between web development &
+              web design?</h2>
+            <p class="leading-relaxed">Well, this is the greatest confusion which is quite tricky to get rid of
+              especially when you are thinking of designing a website for your business. Most of the business owners get
+              addled amongest these terms for the full construction of a website.</p>
+            <a class="text-teal-500 inline-flex items-center mt-4" href="more0.html" target="_blank">Learn More
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <hr>
+        <div class="py-8 flex flex-wrap md:flex-no-wrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="tracking-widest font-medium title-font text-white">WEB DESIGN AND DEVELOPMENT</span>
+            <span class="mt-1 text-gray-600 text-sm">19 Sep 2020</span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-white title-font mb-2">Is it better to be a Web Designer or Web
+              Developer?</h2>
+            <p class="leading-relaxed">I agree with those that say being both is definitely better. <br> <br>
+
+              But being a designer is not easier. <br> <br>
+
+              Coding is finite; once you learn the code, the code doesn’t change (not counting new advances in
+              technology, which happen relatively slowly).</p>
+            <a class="text-teal-500 inline-flex items-center mt-4" href="more1.html" target="_blank">Learn More
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+
+        <hr>
+        <div class="py-8 flex flex-wrap md:flex-no-wrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="tracking-widest font-medium title-font text-white">KARNA (MAHABHARATHA CHARACTER)</span>
+            <span class="mt-1 text-gray-600 text-sm">20 Oct 2020</span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-white title-font mb-2">If Lord Parshurama was the incarnation of the Lord Vishu then why wasn't he knowing about Karna (that he was not a Brahmin)? All the other incarnations could see future then why didn't Lord Parshurama see?</h2>
+            <p class="leading-relaxed">If Lord Rama was the incarnation of the Lord Vishnu then why wasn't he knowing about then why wasn’t he knowing about the abduction of Sita ? <br> <br> If Lord Krishna was the incarnation of the Lord Vishnu then why wasn't he knowing about then why wasn’t he knowing about the Draupadi humiliation ?</p>
+            <a class="text-teal-500 inline-flex items-center mt-4" href="more2.html" target="_blank">Learn More
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <hr>
+  <footer>
+    <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
+      <span class="inline-flex">
+        <a class="text-gray-500" href="https://www.facebook.com" target="_blank">
+          <img src="fb.png" alt="facebook image icon" style="width: 1.7em; opacity: 0.6; border-radius: 50%;">
+        </a>
+        <a class="ml-4 text-gray-500" href="https://www.instagram.com" target="_blank">
+          <img src="insta.png" alt="instagram image icon" style="width: 1.7em; opacity: 0.6; border-radius: 50%;">
+        </a>
+        <a class="ml-4 text-gray-500" href="https://www.github.com" target="_blank">
+          <img src="github.png" alt="github image icon" style="width: 1.7em; opacity: 0.6; border-radius: 50%;">
+        </a>
+      </span>
+    </div>
+  </footer>
+</body>
+
+</html>
