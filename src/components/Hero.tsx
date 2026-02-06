@@ -3,7 +3,7 @@ import { Icons } from './Icons';
 const socialLinks = [
   { icon: Icons.github, href: 'https://github.com/vinayhr01', label: 'GitHub' },
   { icon: Icons.linkedin, href: 'https://linkedin.com/in/vinay-h-r', label: 'LinkedIn' },
-  { icon: Icons.mail, href: 'mailto:vinayhr1211@gmail.com', label: 'Email' },
+  { icon: Icons.mail, href: 'mailto:vinayhr1211+source+portfolio@gmail.com', label: 'Email' },
 ];
 
 export function Hero() {

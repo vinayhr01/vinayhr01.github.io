@@ -2,7 +2,7 @@ import { useScrollReveal } from '../hooks/useScrollReveal';
 import { Icons } from './Icons';
 
 const contactItems = [
-  { icon: Icons.mail, label: 'Email', value: 'vinayhr1211@gmail.com', href: 'mailto:vinayhr1211@gmail.com' },
+  { icon: Icons.mail, label: 'Email', value: 'vinayhr1211+source+portfolio@gmail.com', href: 'mailto:vinayhr1211+source+portfolio@gmail.com' },
   { icon: Icons.mapPin, label: 'Location', value: 'Bengaluru, Karnataka', href: null },
 ];
 
@@ -83,7 +83,7 @@ export function Contact() {
           {/* CTA */}
           <div className="mt-10 text-center">
             <a
-              href="mailto:vinayhr1211@gmail.com"
+              href="mailto:vinayhr1211+source+portfolio@gmail.com"
               className="btn-primary inline-flex items-center gap-2 px-6 py-3 rounded-lg text-sm"
             >
               <Icons.mail className="w-4 h-4" />
