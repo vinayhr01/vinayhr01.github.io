@@ -41,7 +41,7 @@ src/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/vinayhr01/vinayhr01.github.io.git
+   git clone https://github.com/vinayhr01/vinayhr01.github.io
    ```
 
 2. Install dependencies:
