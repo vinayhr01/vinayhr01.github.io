@@ -2,11 +2,6 @@
 
 A high-performance, minimal, and modern portfolio website built with React, Vite, and Tailwind CSS. Featuring a striking Yellow & AMOLED Black theme with full responsiveness and system theme synchronization.
 
-![License](https://img.shields.io/badge/license-MIT-yellow)
-![React](https://img.shields.io/badge/React-20232a?style=flat&logo=react&logoColor=61dafb)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38b2ac?style=flat&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
-
 ## ✨ Features
 
 - 🌓 **Dynamic Theming**: System-aware theme switching (System/Light/Dark) with a dedicated AMOLED black mode for OLED displays.
@@ -46,7 +41,7 @@ src/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/vinayhr01/portfolio.git
+   git clone https://github.com/vinayhr01/vinayhr01.github.io.git
    ```
 
 2. Install dependencies:
@@ -67,9 +62,7 @@ src/
 ## 👤 Author
 
 **Vinay H R**
-- LinkedIn: [linkedin.com/in/vinay-h-r](https://linkedin.com/in/vinay-h-r)
 - GitHub: [github.com/vinayhr01](https://github.com/vinayhr01)
-- Email: [vinayhr1211@gmail.com](mailto:vinayhr1211@gmail.com)
 
 ## 📄 License
 
